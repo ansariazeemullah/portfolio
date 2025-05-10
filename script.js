@@ -9,7 +9,7 @@ function CheckLogin() {
             if (password.toLowerCase() == 'azeemullah') {
                 document.getElementById('message').innerText = "Successfull Loged in!"
                 setTimeout(() => {
-                    window.location.href = "index.html"
+                    window.location.href = "main.html"
                 }, 1000);
             }
             else {
@@ -21,4 +21,3 @@ function CheckLogin() {
         }
     }, 2000);
 }
-
